@@ -1,8 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ste é um projeto [Next.js](https://nextjs.org/) iniciado com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages /criar-próximo-aplicativo).
 
-## Getting Started
+## Começando
 
-First, run the development server:
+Primeiro, execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
@@ -14,27 +14,34 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o resultado.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Portfólio Pessoal
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Este é o repositório do meu portfólio pessoal, onde compartilho informações sobre mim, meus projetos e habilidades como desenvolvedor front-end.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Conteúdo
+Seção Inicial (Inicio)
+Informações Pessoais (Informacoes)
+Tecnologias (Tecnologias)
+Projetos (Projetos)
+Contato e Outras Informações (Informacoes)
+Seção Inicial (Inicio)
+Esta seção inclui uma apresentação visual com uma imagem de perfil, meu nome e links para minhas redes sociais. Além disso, apresenta uma breve descrição sobre mim e meu compromisso com o desenvolvimento web.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Informações Pessoais (Informacoes)
+Nesta seção, compartilho detalhes sobre como entrar em contato comigo, minhas soft skills, certificados, e informações sobre minha formação acadêmica.
 
-## Learn More
+Tecnologias (Tecnologias)
+Apresento as principais tecnologias com as quais trabalho, incluindo HTML, CSS, JavaScript, React e Next.js. Cada tecnologia é acompanhada por uma breve descrição das minhas habilidades e conhecimentos relacionados.
 
-To learn more about Next.js, take a look at the following resources:
+Projetos (Projetos)
+Destaco alguns dos projetos mais relevantes que desenvolvi. Cada projeto tem uma breve descrição, capturas de tela e links para o código-fonte e/ou a aplicação em execução.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contato e Outras Informações (Informacoes)
+Finalizo o portfólio com informações adicionais de contato, soft skills, certificados e detalhes sobre minha formação acadêmica.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contribuições
+Sinta-se à vontade para abrir issues ou enviar pull requests se desejar contribuir ou sugerir melhorias.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Autor: Janser Souza
