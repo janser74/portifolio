@@ -1,0 +1,29 @@
+/* Estilos para a seção de rodapé */
+.footer {
+  background-color: #4d4b4b;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Estilos para os parágrafos dentro da seção de rodapé */
+.footer p {
+  text-align: center;
+}
+
+/* Estilos para o botão "scrollToTop" */
+.scrollToTopButton {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #10927c;
+  color: #edf7c4;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+/* Efeito de hover no botão "scrollToTop" */
+.scrollToTopButton:hover {
+  background-color: #2980b9;
+}

@@ -1,0 +1,94 @@
+/* Estilos para a seção principal */
+.principal {
+  max-width: 1024px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+/* Estilos para o container de cards */
+.container {
+  display: flex;
+  justify-content: space-around; /* Alinha os elementos com espaço uniforme entre eles */
+  
+}
+
+/* Estilos para os cards individuais */
+.card {
+  box-shadow: 0 4px 8px rgba(110, 92, 92, 0.2);
+  padding: 30px;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+  margin: 0 10px; /* Espaçamento entre os cards */
+  width: 250px;
+  flex-wrap: wrap;
+ 
+}
+
+/* Efeito de escala nos cards ao passar o mouse */
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos para o título dos cards */
+.card h2 {
+  color: #333;
+}
+
+/* Estilos para a lista de itens dentro dos cards */
+.card ul {
+  list-style-type: none;
+  padding: 0;
+ 
+}
+
+/* Espaçamento entre os itens da lista dentro dos cards */
+.card li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* Estilos para os links dentro dos cards */
+.card a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+/* Estilos para as imagens dentro dos cards */
+.card img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+/* Efeito de escala nas imagens ao passar o mouse */
+.card img:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.3);
+}
+
+/* Efeito de fundo nos links ao passar o mouse */
+.card a:hover {
+  background-color: aliceblue;
+}
+
+/* Estilos para telas menores (max-width: 600px) */
+@media (max-width: 700px) {
+  /* Ajusta a direção do flex container para coluna em telas menores */
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Adapta o espaçamento entre os cards para telas menores */
+  .card {
+    margin: 10px 0;
+  }
+
+  /* Reduz a margem da seção principal para telas menores */
+  .principal {
+    margin: 15px auto;
+  }
+}

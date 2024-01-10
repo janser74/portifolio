@@ -1,0 +1,75 @@
+/* Estilos para o ícone de menu hamburguer */
+.hamburgerMenu {
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  background-image: to right linear-gradient(#a6a6a6, #ffffff);
+  padding: 15px;
+}
+
+/* Estilos para as barras do ícone de menu hamburguer */
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+}
+
+/* Estilos quando o menu está aberto (classe 'open') */
+.open .bar:nth-child(1) {
+  transform: rotate(-360deg) translate(-5px, 6px);
+}
+
+.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.open .bar:nth-child(3) {
+  transform: rotate(360deg) translate(-5px, -6px);
+}
+
+/* Estilos para o conteúdo do menu */
+.menuContent {
+  display: none;
+  width: 450px;
+  border-radius: 10px;
+}
+
+/* Estilos quando o menu está aberto (classe 'open') */
+.open .menuContent {
+  display: flex;
+  background-image: linear-gradient(#a6a6a6, #ffffff);
+  padding: 15px;
+  position: relative;
+  border: 1px solid #ccc;
+  box-shadow: 0 5px 51px rgba(0, 0, 0, 0.2);
+  flex-direction: row;
+}
+
+/* Estilos para os links no menu */
+.menuContent a {
+  text-decoration: none;
+  color: #0a0a0a;
+  display: block;
+  margin-bottom: 8px;
+  padding: 4px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+/* Efeito de hover nos links do menu */
+.menuContent a:hover {
+  transform: scale(1.2);
+  background-color: #ebf3f1;
+}
+
+/* Estilos para telas menores (max-width: 525px) */
+@media (max-width: 525px) {
+  .menuContent {
+    width: 150px;
+  }
+  .open .menuContent {
+    flex-direction: column;
+  }
+}

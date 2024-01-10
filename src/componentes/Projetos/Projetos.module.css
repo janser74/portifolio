@@ -1,0 +1,64 @@
+/* Estiliza o container principal */
+.container {
+  max-width: 700px; /* Limita a largura máxima do container */
+  margin: 0 auto; /* Centraliza o container horizontalmente */
+  box-shadow: 2px 5px 5px 2px rgba(187, 186, 186, 0.849); /* Adiciona uma sombra suave ao container */
+  padding: 10px; /* Adiciona preenchimento interno ao container */
+}
+
+/* Estiliza o título h1 dentro do container principal */
+.principal h1 {
+  margin: 50px 50px; /* Define as margens do título */
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+/* Estiliza os projetos */
+.project {
+  transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave na escala ao passar o mouse */
+}
+
+/* Estiliza as imagens dentro dos projetos */
+.project img {
+  max-width: 100%; /* Garante que as imagens não ultrapassem a largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estiliza os títulos h2 dentro dos projetos */
+.project h2 {
+  margin-top: 8px; /* Adiciona margem superior ao título */
+  font-size: 1.5rem; /* Define o tamanho do título */
+  text-align: center; /* Centraliza o texto horizontalmente */
+  color: black; /* Define a cor do texto */
+}
+
+/* Estiliza os parágrafos dentro dos projetos */
+.project p {
+  margin: 0 auto; /* Centraliza o parágrafo horizontalmente */
+  text-align: justify; /* Justifica o texto */
+  max-width: 550px; /* Limita a largura máxima do parágrafo */
+  color: #555; /* Define a cor do texto */
+}
+
+/* Estiliza os links dentro dos projetos */
+.project a {
+  text-decoration: none; /* Remove a decoração do link */
+}
+
+/* Estiliza os links para o GitHub nas imagens */
+.linkGit img {
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  max-width: 50px; /* Limita a largura máxima da imagem */
+}
+
+/* Efeito de escala ao passar o mouse sobre as imagens dos links para o GitHub */
+.linkGit img:hover {
+  transform: scale(1.2); /* Aumenta ligeiramente o tamanho da imagem ao passar o mouse */
+}
+
+/* Estilos específicos para telas menores (até 380px de largura) */
+@media (max-width: 380px) {
+  .principal h1 {
+    margin: 20px; /* Reduz a margem do título */
+    font-size: 28px; /* Reduz o tamanho do título */
+  }
+}

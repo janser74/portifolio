@@ -1,0 +1,52 @@
+/* Estiliza a seção principal */
+.principal {
+  text-align: center;
+}
+
+/* Estiliza o título h1 dentro da seção principal */
+.principal h1 {
+  font-size: 2rem;
+  margin: 45px auto 20px auto;
+}
+
+/* Configuração do container que envolve os itens de tecnologia */
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens fluam para a próxima linha conforme necessário */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+/* Estiliza cada item de tecnologia */
+.tec {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra suave ao item */
+  margin: 10px;
+  padding: 20px;
+  max-width: 250px; /* Limita a largura máxima do item */
+  text-align: center;
+  transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave na escala */
+}
+
+/* Efeito de escala e sombra quando o item é hover */
+.tec:hover {
+  transform: scale(1.05); /* Aumenta ligeiramente o tamanho do item ao passar o mouse */
+  box-shadow: 5px 4px 8px rgb(97, 97, 97); /* Adiciona uma sombra diferente ao passar o mouse */
+}
+
+/* Estiliza a imagem dentro do item de tecnologia */
+.tec img {
+  max-width: 50%; /* Limita a largura máxima da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  margin-bottom: 15px; /* Adiciona espaço abaixo da imagem */
+}
+
+/* Estiliza o título h3 dentro do item de tecnologia */
+.tec h3 {
+  font-size: 1.5rem; /* Define o tamanho do título */
+  margin-bottom: 10px; /* Adiciona espaço abaixo do título */
+}
+
+/* Estiliza o parágrafo dentro do item de tecnologia */
+.tec p {
+  color: #555; /* Define a cor do texto */
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
