@@ -30,6 +30,12 @@ const tecData = [
     description: 'Impulsionando minhas aplicações React com Next.js, otimizo a performance e a experiência do usuário. O servidor renderizado e as capacidades de geração estática tornam minhas aplicações rápidas e eficientes.',
     image: '/assets/next.png',
   },
+
+  {
+    title: 'API REST',
+    description: 'Aprimoramento do Consumo de APIs REST com Express.js, enfatizando a criação eficiente de endpoints, adoção de boas práticas de desenvolvimento, implementação de testes e otimização de desempenho.',
+    image: '/assets/api.png',
+  },
   
 ];
 

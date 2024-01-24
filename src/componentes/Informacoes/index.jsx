@@ -71,6 +71,16 @@ const Informacoes = () => {
       imagem: '/assets/js.png',
     },
     {
+    title: ' API REST - DevMedia',
+    link: 'https://www.devmedia.com.br/certificado/tecnologia/rest/janser-souza-silva',
+    imagem: '/assets/api.png',
+    },
+    {
+    title: ' Node.js - DevMedia',
+    link: 'https://www.devmedia.com.br/certificado/unificado/node-js/janser-souza-silva',
+    imagem: '/assets/node.png',
+    },
+    {
       title: ' Dev Web - Udedmy',
       link: 'https://www.udemy.com/certificate/UC-0f8ffdbe-0e1f-4093-811d-bc686bf5c42e/',
       imagem: '/assets/udemy.png',

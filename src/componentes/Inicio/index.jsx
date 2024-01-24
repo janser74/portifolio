@@ -51,7 +51,7 @@ import { motion } from 'framer-motion';
                     </div>
 
                     <div>
-                    <a href=" https://drive.google.com/file/d/1A7_vJIquvtIGNzbT9r4E3_1Kuj2ptDik/view?usp=drive_link" target="_blank" rel="noreferrer" ><img src='assets/curriculo.png' alt='curriculo' /></a>
+                    <a href=" https://drive.google.com/file/d/1A7_vJIquvtIGNzbT9r4E3_1Kuj2ptDik/view?usp=sharing" target="_blank" rel="noreferrer" ><img src='assets/curriculo.png' alt='curriculo' /></a>
                     </div>
                    
 
